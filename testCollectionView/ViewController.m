@@ -41,7 +41,7 @@
 
 -(void)fetchMore
 {
-    currentCount += 20;
+    currentCount += 10;
     [self.collectionView reloadData];
 }
 
